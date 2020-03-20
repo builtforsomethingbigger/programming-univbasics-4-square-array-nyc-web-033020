@@ -1,7 +1,5 @@
 def square_array(array)
-  counter = 0
-  while array[counter] do
-    puts array[counter].to_i**2
-    counter += 1
+  array.each do |i|
+    i**2
   end
 end
