@@ -1,7 +1,7 @@
 def square_array(array)
   squared_values = []
-  array.each do |i|
+  array.map do |i|
     squared_values << i**2
-    squared_values
   end
+  puts squared_values
 end
